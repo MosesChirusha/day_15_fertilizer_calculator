@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fertilizer Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+  <h1>Fertilizer Calculator</h1>
+
+  <label>Crop Type</label>
+  <select id="crop">
+    <option value="maize">Maize</option>
+    <option value="beans">Beans</option>
+    <option value="rice">Rice</option>
+    <option value="vegetables">Vegetables</option>
+  </select>
+
+  <label>Land Size (acres)</label>
+  <input type="number" id="land" placeholder="e.g. 1.5">
+
+  <label>Fertilizer Type</label>
+  <select id="fertilizer">
+    <option value="npk">NPK (23:23:0)</option>
+    <option value="urea">Urea</option>
+    <option value="dap">DAP</option>
+  </select>
+
+  <div class="result" id="output">
+    Enter details to calculate fertilizer amount.
+  </div>
+
+  <div class="note">
+    Estimates based on general agronomic recommendations.
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
