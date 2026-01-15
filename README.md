@@ -26,6 +26,9 @@ A simple browser-based fertilizer calculator that:
 
 The tool prioritizes clarity and usability over agronomic precision.
 
+- [Demo:](https://moseschirusha.github.io/day_15_fertilizer_calculator/)
+- [Article:](https://moseschirusha.medium.com/how-a-simple-fertilizer-calculator-can-help-farmers-save-money-and-improve-yields-90477c3ed896)
+
 ---
 
 ## Disclaimer
